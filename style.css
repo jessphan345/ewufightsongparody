@@ -1,0 +1,55 @@
+/* Import, Install, etc. Open Props */
+@import "https://unpkg.com/open-props";
+
+/* import google font */
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* Diagnostic Styling */
+
+body {
+  background: var(--gradient-21);
+  height: 100vh;
+}
+
+/* Main Container */
+main {
+  width: 800px;
+  margin: 0 auto 0 auto;
+  padding: 32px;
+}
+
+audio {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  background: magenta;
+}
+
+h1 a{
+  font-family: 'Courgette';
+  text-decoration: none;
+  color: white;
+}
+
+h1 a:hover{
+  color: var(--pink-6);
+}
+
+/* COMMONT */
+span{
+  font-family: 'Courgette';
+  font-size: 17px;
+  padding: 7 px; 
+  background: pink;
+  border-radius: var(--radius-blob-5);
+}
+
+span:hover {
+  display: inline-block;
+  animation: var(--animation-shake-x);
+}
